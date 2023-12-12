@@ -1,0 +1,51 @@
+/**Aqui va el selector de reglas Css **/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+  }
+
+    .colores{ 
+color: rgb(65, 44, 18);
+}
+
+.colores2{ 
+  color: rgb(255, 255, 255); }
+
+#navegacion {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.letra {
+  font-family: 'Caveat', cursive;
+  
+
+
+}
+
+#r{
+  border-radius: 50%;
+  }
