@@ -1,0 +1,76 @@
+body{
+background-color: white;
+}
+
+#lupa {
+    color: black;
+}
+
+.icono { 
+    width: 30px;
+    height: 30px;
+}
+
+.icono1 {
+    width: 50px;
+    height: 50px;
+}
+
+.tex {
+    text-size-adjust: 40px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navegador {
+    display: flex;
+    border: 1px solid #dfdfdf;
+    min-height: 44px;
+    max-width: 584px;
+    width: 638px;
+}
+
+#navegador input{
+    width: 450px;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+.container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+  /* Estilos de la lista */
+  list-style-type: none;
+  
+  display: flex;
+  align-items: center;
+  justify-content: end; /* Alinea la lista al final del contenedor */
+}
+
+.list li {
+  /* Estilos de los elementos de la lista */
+  margin: 0 10px;/* Espacio entre elementos, ajusta según desees */
+}
