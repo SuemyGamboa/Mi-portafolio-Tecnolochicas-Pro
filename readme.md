@@ -5,8 +5,8 @@ Este proyecto fue creado durante el bootcamp de Technolochicas PRO, es una pagin
 Es una pagina web enfocada en mostrar mi expereiencia como desarrolladora de proyectos, en formato de portafolio con mencion de mi perfil, miproyectos, mis voluntariados y medios de contacto
 
 ## tecnologias 
-HTML
-CSS
+HTML |
+CSS |
 JS
 
 ## contacto
