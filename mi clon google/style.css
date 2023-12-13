@@ -4,6 +4,7 @@ background-color: white;
 
 #lupa {
     color: black;
+
 }
 
 .icono { 
@@ -20,6 +21,8 @@ background-color: white;
     text-size-adjust: 40px;
 }
 
+
+
 header ul {
     list-style-type: none;
     display: flex;
@@ -33,33 +36,64 @@ header ul li {
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 1;
+    margin-top: 6px;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    flex-wrap: wrap;
     justify-content: center;
+    height: 80vh;
+}
+
+#body {
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 #navegador {
     display: flex;
-    border: 1px solid #dfdfdf;
+    z-index: 3;
+    position: relative;
     min-height: 44px;
-    max-width: 584px;
-    width: 638px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 148px;
+    width: auto;
+    max-width: 324px;
 }
 
 #navegador input{
     width: 450px;
-    margin: 5px;
+    margin: 8px;
     border: none;
     outline: none;
 }
 
-.container {
+footer {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    
+    align-items: center;
 }
+
+footer ul li {
+    margin: 18px;
+}
+
+#opciones {
+    display: flex;
+}
+
+.lista-horizontal {
+  display: flex;
+  justify-content: flex-end; /* Alinea la lista horizontal al final del contenedor */
+  background-color: rgb(255, 255, 255);
+  list-style-type: none;  }
 
 .list {
   /* Estilos de la lista */
@@ -72,5 +106,7 @@ main {
 
 .list li {
   /* Estilos de los elementos de la lista */
-  margin: 0 10px;/* Espacio entre elementos, ajusta según desees */
+  margin: 0 10px;
+  margin: 0;
+  padding: 0; /* Espacio entre elementos, ajusta según desees */
 }
