@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.perfil {
+  max-width: 50%;
+  /* Ajustar el tamaño según sea necesario */
+  width: 100px; /* Por ejemplo, 300px de ancho */
+  height: auto;
+  }
+
+  #carrusel {
+    
+  }
+  
